@@ -1,0 +1,143 @@
+* {
+}
+body {
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header .logo {
+    width: 100px;
+}
+
+
+.kfc {
+    background-color: red;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 22px 0;
+    
+}
+
+.infonav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.infonav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    display: block;
+    max-width: 100%;
+}
+
+.content {
+    background-color: brown;
+
+}
+
+.content__text {
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.content__title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 32px 0;
+}
+
+.content__text--black {
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.content__text--white {
+    color: white;
+    font-size: 30px;
+}
+
+.content__pic {
+    width: 50%;
+}
+
+.content__history {
+    background-color: brown;
+}
+
+.content__history__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin: 32px;
+}
+
+.content__history__place {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 50%
+}
+
+.menu__title {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.menu__tables{
+    width: 900px;
+    height: 800px;
+    margin: auto;
+}
+
+.menu__tables,th, td {
+    border: 1px solid black;
+}
+
+.menu__tables--right {
+    text-align: right;
+}
+
+.menu__tables--center {
+    text-align: center;
+}
+
+
+.menu__tables--left{
+    text-align: left;
+}
+
+.menu__tables--green {
+    background-image: url(./Image/greentea.jpg);
+    width: 50%;
+}
+
+.menu__tables--black {
+    background-image: url(./Image/blacktea.jpg);
+}
+
+.menu__tables--olong {
+    background-image: url(./Image/olongtea.jpg)
+}
+
+.menu__tables--fruit {
+    background-image: url(./Image/fruit.jpg)
+}
+
+.menu__tables--milk {
+    background-image: url(./Image/milktea.png)
+}

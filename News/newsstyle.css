@@ -1,0 +1,28 @@
+
+body {
+    background-color: grey;
+    margin: 8px;
+
+}
+
+#news {
+    width: 60%;
+    background-color: #fff;
+}
+
+.news__title p {
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    margin: 33px;
+    background-color: #fff;
+}
+
+.news__content {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+}
